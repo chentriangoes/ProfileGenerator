@@ -1,0 +1,25 @@
+{
+  "name": "profilegenerator",
+  "version": "1.0.0",
+  "description": "A Node.js command-line application generating a team profile of every member's information for the project management",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chentriangoes/ProfileGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chentriangoes/ProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/chentriangoes/ProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
