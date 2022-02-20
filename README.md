@@ -24,6 +24,7 @@ Team Profile
 
 * [Node.js](https://nodejs.org/)
 * [Inquirer.js](https://www.npmjs.com/package/inquirer)
+* [JEST](https://jestjs.io/docs/getting-started)
 
 ## 🛡 License
 

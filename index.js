@@ -1,3 +1,4 @@
+//Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const style = require("./dist/css");
@@ -9,7 +10,7 @@ const Intern = require("./lib/intern");
 
 let finalTeamArray = [];
 
-
+//Create an array of questions for user input to create team name
 function startingPrompt() {
     inquirer.prompt([
         {
@@ -24,6 +25,7 @@ function startingPrompt() {
         })
 }
 
+//Create an array of questions for user input to generate a team manager
 function addManager() {
     inquirer.prompt([
         {
@@ -53,6 +55,7 @@ function addManager() {
         });
 }
 
+//Create an array of questions for user input to add more team members
 function addTeamMembers() {
     inquirer.prompt([
         {
@@ -80,6 +83,7 @@ function addTeamMembers() {
         });
 }
 
+//Create an array of questions for user input to add an engineer
 function addEngineer() {
     inquirer.prompt([
         {
@@ -107,6 +111,7 @@ function addEngineer() {
         });
 };
 
+//Create an array of questions for user input to add an intern
 function addIntern() {
     inquirer.prompt([
         {
@@ -134,6 +139,7 @@ function addIntern() {
         });
 };
 
+// Create a function to write HTML file
 function compileTeam() {
     console.log("The Team Profile is Completed! Enjoy Your Collaboration!")
 
@@ -206,5 +212,5 @@ function compileTeam() {
     })
 }
 
+// Function call to initialize app
 startingPrompt()
-
